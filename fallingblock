@@ -1,0 +1,58 @@
+local ws = game.Workspace
+local part1 = ws.n1
+local part2 = ws.n2
+local part3 = ws.n3
+local part4 = ws.n4
+local part5 = ws.n5
+local part6 = ws.n6
+local part7 = ws.n7
+local part8 = ws.n8
+
+local function n1dis ()
+	wait(0.2)
+	part1.Anchored = false
+end
+
+local function n2dis ()
+	wait(0.2)
+	part2.Anchored = false
+end
+
+local function n3dis ()
+	wait(0.1)
+	part3.Anchored = false
+end
+
+local function n4dis ()
+	wait(0.1)
+	part4.Anchored = false
+end
+
+local function n5dis ()
+	wait(0.1)
+	part5.Anchored = false
+end
+
+local function n6dis ()
+	wait(0.1)
+	part6.Anchored = false
+end
+
+local function n7dis ()
+	wait(0.1)
+	part7.Anchored = false
+end
+
+local function n8dis ()
+	wait(0.1)
+	part8.Anchored = false
+end
+
+part1.Touched:Connect(n1dis)
+part2.Touched:Connect(n2dis)
+part3.Touched:Connect(n3dis)
+part4.Touched:Connect(n4dis)
+part5.Touched:Connect(n5dis)
+part6.Touched:Connect(n6dis)
+part7.Touched:Connect(n7dis)
+part8.Touched:Connect(n8dis)
